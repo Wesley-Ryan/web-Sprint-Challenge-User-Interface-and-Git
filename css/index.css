@@ -70,6 +70,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    width:100px ;
+    text-align: center;
+    color: black; 
+    text-decoration: none;
+    padding: 20px 0 0 0;
+    align-self: flex-end;
+}
+
+  
+  .banner{
+      margin: 40px 0 0 0 ;
+  }
 
 .top-content {
     display: flex;
