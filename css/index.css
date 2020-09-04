@@ -87,13 +87,14 @@ p {
   
   .banner{
       margin: 40px 0 0 0 ;
+      width: 100%;
   }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -192,4 +193,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*--------- ABOUT PAGE -------*/
+
+#about { 
+    border-bottom: 1px dashed black;
+    margin: 10px 0 40px 0;
+    padding:2%;
+
+}
+
+.about-img { 
+   display: flex;
+   justify-content: space-between;
+}
+
+#top-about-text{
+   display: flex;
+   margin: 0;
+   align-content: space-between;
+ }
+ .top-box{
+   margin: 0px 30px 30px 15px; 
+   padding: 10px 10px 25px 10px;
+   border-bottom:1px dashed black;
+ }
+button {
+     margin: 15px 0 0 0 ;
+     border: 1px solid black;
+     border-radius: 10px;
+     border-width: 2px;
+     text-align: center;
+     font-size: 15px;
+    background-color: white;
+     width: 130px;
+     height: 40px;
+   
+ }
+
+ button:hover { 
+     background-color:black;
+     color:white;
+ }
+
+ #bottom-about{
+    margin: 0 10px 20px 10px;
+    padding: 25px 0 10px 0 ;
+    line-height: 1.5;
+    
 }
